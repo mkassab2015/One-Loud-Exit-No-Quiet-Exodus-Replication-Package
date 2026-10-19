@@ -1,0 +1,16 @@
+{
+  "run_at": "2026-08-19T20:43:43.723573Z",
+  "n_band": 2701,
+  "n_collected": 2697,
+  "coverage": 0.9985190670122177,
+  "n_treated": 1059,
+  "n_control": 1638,
+  "cutoff_downloads": 760308,
+  "cohort_size": 3800,
+  "primary_estimate": 0.015324766148848923,
+  "primary_robust_p": 0.8901688360293559,
+  "primary_n_eff": 685,
+  "control_base_rate": 0.5567765567765568,
+  "mde_80pct": 0.2965254741911018,
+  "robust_se": 0.10584203267278412
+}

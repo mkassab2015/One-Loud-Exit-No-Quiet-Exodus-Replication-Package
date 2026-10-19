@@ -1,0 +1,32 @@
+{
+  "decided_at": "2026-08-19T20:42:48.501237Z",
+  "primary_outcome": "released_at_all  = 1[releases in (T0, T0+365d] > 0]",
+  "primary_rationale": "bounded in [0,1]; immune to the automated-release tail that made raw counts implausible on day 1; directly answers whether mandated 2FA pushed maintainers to stop maintaining",
+  "secondary": [
+    "log1p(releases_post)",
+    "days_to_next_release (censored at 365)"
+  ],
+  "appendix_only": [
+    "raw release count (tail-sensitive)"
+  ],
+  "running_variable": "log(downloads_in_PyPI_window) - log(downloads_at_rank_COHORT_SIZE)",
+  "cutoff": 0.0,
+  "bandwidth": "rdrobust MSE-optimal (mserd), data-driven; sensitivity over 0.5x-2x",
+  "inference": "robust bias-corrected (Calonico-Cattaneo-Titiunik)",
+  "cohort_size": 3800,
+  "cohort_sensitivity": [
+    3500,
+    3600,
+    3700,
+    3800,
+    3900,
+    4000
+  ],
+  "estimand": "INTENT-TO-TREAT: effect of DESIGNATION, not of enabling 2FA. Per-account compliance is not public.",
+  "falsification": [
+    "placebo cutoffs",
+    "donut-hole",
+    "covariate balance",
+    "placebo pre-period date"
+  ]
+}

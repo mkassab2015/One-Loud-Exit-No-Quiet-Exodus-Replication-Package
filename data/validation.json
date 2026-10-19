@@ -1,0 +1,13 @@
+{
+  "rho_all": 0.9520898126115923,
+  "rho_near": 0.8570125257746474,
+  "overlap_n": 5000,
+  "treat_agree": 0.915,
+  "density_true_ratio": 0.9491525423728814,
+  "density_lo": 295,
+  "density_hi": 280,
+  "density_placebo_median": 0.9205063941906046,
+  "density_n_placebo": 148,
+  "density_p": 0.722972972972973,
+  "cutoff_downloads": 760308.0
+}

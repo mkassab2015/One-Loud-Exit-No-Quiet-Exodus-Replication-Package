@@ -1,0 +1,11 @@
+# Installed automatically by the notebooks; listed for reference.
+rdrobust
+linearmodels
+statsmodels
+pandas
+numpy
+scipy
+matplotlib
+pyarrow
+requests
+tqdm

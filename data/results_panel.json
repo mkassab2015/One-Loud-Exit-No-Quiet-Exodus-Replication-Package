@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-08-19T22:39:53.957422+00:00",
+  "n_projects": 2197,
+  "n_project_months": 79092,
+  "n_treated": 1059,
+  "n_control": 1138,
+  "n_late_excluded": 500,
+  "att": 0.0013694098565425023,
+  "att_se": 0.006630722385256042,
+  "att_p": 0.8363813954336128,
+  "base_monthly_rate": 0.2117750439367311,
+  "mde_80pct": 0.01857653381994409,
+  "mde_rel_base": 0.08771823853566961,
+  "lead_sig": 0,
+  "n_leads": 11,
+  "mean_post_coef": 0.0005876102950140145,
+  "rdd_stage2": {
+    "run_at": "2026-08-19T20:43:43.723573Z",
+    "n_band": 2701,
+    "n_collected": 2697,
+    "coverage": 0.9985190670122177,
+    "n_treated": 1059,
+    "n_control": 1638,
+    "cutoff_downloads": 760308,
+    "cohort_size": 3800,
+    "primary_estimate": 0.015324766148848923,
+    "primary_robust_p": 0.8901688360293559,
+    "primary_n_eff": 685,
+    "control_base_rate": 0.5567765567765568,
+    "mde_80pct": 0.2965254741911018,
+    "robust_se": 0.10584203267278412
+  }
+}
